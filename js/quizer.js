@@ -357,7 +357,8 @@ let ru_1990_f = [
 			pack : RU_1990_F_PACK_1,
 			group : 'Натали',
 			song : 'Ветер с моря дул',
-			state: ' по Натали'
+			state: ' по Натали',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_3,
@@ -368,12 +369,14 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Каролина',
-			song : 'Звёздный вечер'
+			song : 'Звёздный вечер',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Каролина',
-			song : 'Мама, всё ОК'
+			song : 'Мама, всё ОК',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -391,9 +394,7 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Марина Хлебникова',
-			song : 'Чашка Кофею',
-			state: ' по Хлебниковой',
-			shorten: 'Хлебникова'
+			song : 'Чашка Кофею (1997)'
 		},
 		{
 			pack : RU_1990_F_PACK_3,
@@ -459,7 +460,7 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Лика Стар',
-			song : 'Одинокая луна'
+			song : 'Одинокая луна (1996)'
 		},
 		{
 			pack : RU_1990_F_PACK_3,
@@ -604,17 +605,20 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_3,
 			group : 'Саша',
-			song : 'По ночному городу'
+			song : 'По ночному городу',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_3,
 			group : 'Саша',
-			song : 'Это просто дождь'
+			song : 'Это просто дождь',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_3,
 			group : 'Саша',
-			song : 'Любовь — это война'
+			song : 'Любовь — это война',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -759,12 +763,14 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Ты упал с луны'
+			song : 'Ты упал с луны',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Маша Распутина',
-			song : 'Ты меня не буди'
+			song : 'Ты меня не буди',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -889,7 +895,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Каролина',
-			song : 'Дискобар'
+			song : 'Дискобар',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_3,
@@ -920,6 +927,26 @@ let ru_1990_f = [
 			pack : RU_1990_F_PACK_2,
 			group : 'Линда',
 			song : 'Белое на белом'
+		},
+		{
+			pack : RU_1990_F_PACK_2,
+			group : 'Лика Стар',
+			song : 'Би-би, такси (1993)'
+		},
+		{
+			pack : RU_1990_F_PACK_2,
+			group : 'Лика Стар',
+			song : 'Пусть пройдет дождь (1992)'
+		},
+		{
+			pack : RU_1990_F_PACK_2,
+			group : 'Марина Хлебникова',
+			song : 'Дожди (1997)'
+		},
+		{
+			pack : RU_1990_F_PACK_2,
+			group : 'Марина Хлебникова',
+			song : 'Полоска Взлетная (1999)'
 		}
 ];
 
