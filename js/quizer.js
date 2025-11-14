@@ -820,7 +820,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_1,
 			group : 'Натали',
-			song : 'Черепашка'
+			song : 'Черепашка (2000)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_1,
@@ -921,7 +922,7 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_1,
 			group : 'Земфира',
-			song : 'Румба'
+			song : 'Румба (1999)'
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -947,6 +948,21 @@ let ru_1990_f = [
 			pack : RU_1990_F_PACK_2,
 			group : 'Марина Хлебникова',
 			song : 'Полоска Взлетная (1999)'
+		},
+		{
+			pack : RU_1990_F_PACK_3,
+			group : 'Азиза',
+			song : 'Твоя улыбка (1990)'
+		},
+		{
+			pack : RU_1990_F_PACK_3,
+			group : 'Азиза',
+			song : 'Всё или ничего (1997)'
+		},
+		{
+			pack : RU_1990_F_PACK_3,
+			group : 'Азиза',
+			song : 'Невезуха (1996)'
 		}
 ];
 
