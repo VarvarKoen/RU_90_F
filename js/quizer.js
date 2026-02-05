@@ -345,12 +345,14 @@ function load(){
 const ru_1990_f_icon = [
 	'easy',
 	'medium',
-	'hard'
+	'hard',
+	'pop'
 ];
 
 const RU_1990_F_PACK_1 = 1;
 const RU_1990_F_PACK_2 = 2;
 const RU_1990_F_PACK_3 = 3;
+const RU_1990_F_PACK_4 = 4;
 
 let ru_1990_f = [
 		{
@@ -533,19 +535,21 @@ let ru_1990_f = [
 			song : 'Мало огня'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_4,
 			group : 'Вика Цыганова',
-			song : 'Приходите в мой дом'
+			song : 'Приходите в мой дом',
+			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_4,
 			group : 'Вика Цыганова',
-			song : 'Гроздья рябины'
+			song : 'Гроздья рябины (1992)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_4,
 			group : 'Вика Цыганова',
-			song : 'Лето пьяное'
+			song : 'Лето пьяное',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_3,
@@ -917,7 +921,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_3,
 			group : 'Любовь Успенская',
-			song : 'Любимый'
+			song : 'Любимый',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_1,
@@ -965,15 +970,46 @@ let ru_1990_f = [
 			song : 'Невезуха (1996)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_4,
 			group : 'Катя Огонёк',
 			song : 'Я Ревную Тебя (1998)'
+		},
+		{
+			pack : RU_1990_F_PACK_4,
+			group : 'Вика Цыганова',
+			song : 'Любовь и Смерть (1994)'
+		},
+		{
+			pack : RU_1990_F_PACK_4,
+			group : 'Вика Цыганова',
+			song : 'Русская Водка (1997)'
+		},
+		{
+			pack : RU_1990_F_PACK_4,
+			group : 'Любовь Успенская',
+			song : 'Кабриолет (1992)'
+		},
+		{
+			pack : RU_1990_F_PACK_4,
+			group : 'Любовь Успенская',
+			song : 'Пропадаю я (1997)'
+		},
+		{
+			pack : RU_1990_F_PACK_4,
+			group : 'Любовь Успенская',
+			song : 'Карусель (1996)'
+		},
+		{
+			pack : RU_1990_F_PACK_4,
+			group : 'Анка',
+			song : 'А ты не лётчик (1993)'
 		}
 ];
 
 let ru_1990_f_1 =	ru_1990_f.filter(item => item.pack == 1);
 let ru_1990_f_2 =	ru_1990_f.filter(item => item.pack == 2);
 let ru_1990_f_3 =	ru_1990_f.filter(item => item.pack == 3);
+let ru_1990_f_4 =	ru_1990_f.filter(item => item.pack == 4);
 
 
 let music = [
@@ -994,6 +1030,10 @@ let music = [
 				{
 					arr: ru_1990_f_3,
 					name: 'RU 1990s Female: Hard',
+				},
+				{
+					arr: ru_1990_f_4,
+					name: 'RU 1990s Female: Chanson',
 				}
 			]
 	}
@@ -1007,6 +1047,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -1345,6 +1386,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
