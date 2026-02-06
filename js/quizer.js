@@ -360,7 +360,7 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_1,
 			group : 'Натали',
-			song : 'Ветер с моря дул'
+			song : 'Ветер с моря дул',
 			ignore : true
 		},
 		{
