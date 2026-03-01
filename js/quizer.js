@@ -1151,6 +1151,11 @@ let ru_1990_f = [
 			pack : RU_1990_F_PACK_2,
 			group : 'Лариса Черникова',
 			song : 'Я Шура – ребенок нежный (1999)'
+		},
+		{
+			pack : RU_1990_F_PACK_5,
+			group : 'Лиза Мялик',
+			song : 'Маленькая мама (1993)'
 		}
 ];
 
@@ -1158,6 +1163,7 @@ let ru_1990_f_1 =	ru_1990_f.filter(item => item.pack == 1);
 let ru_1990_f_2 =	ru_1990_f.filter(item => item.pack == 2);
 let ru_1990_f_3 =	ru_1990_f.filter(item => item.pack == 3);
 let ru_1990_f_4 =	ru_1990_f.filter(item => item.pack == 4);
+let ru_1990_f_5 =	ru_1990_f.filter(item => item.pack == 5);
 
 
 let music = [
@@ -1182,6 +1188,10 @@ let music = [
 				{
 					arr: ru_1990_f_4,
 					name: 'RU 1990s Female: Chanson',
+				},
+				{
+					arr: ru_1990_f_5,
+					name: 'RU 1990s Female: One Hit Wonders',
 				}
 			]
 	}
