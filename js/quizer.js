@@ -554,12 +554,12 @@ let ru_1990_f = [
 			song : 'Две луны'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_5,
 			group : 'Алиса Мон',
 			song : 'Алмаз'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_5,
 			group : 'Настя',
 			song : 'Голоса (1994)'
 		},
@@ -925,7 +925,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_1,
 			group : 'Земфира',
-			song : 'Румба (1999)'
+			song : 'Румба (1999)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -1115,7 +1116,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : "Ольга Зарубина",
-			song : 'Чайничек из Гжели (1992)'
+			song : 'Чайничек из Гжели (1992)',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_3,
