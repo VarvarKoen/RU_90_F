@@ -434,7 +434,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_3,
 			group : 'Света',
-			song : 'Увидимся'
+			song : 'Увидимся',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -464,7 +465,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_3,
 			group : 'Света',
-			song : 'Дорога в аэропорт'
+			song : 'Дорога в аэропорт',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_5,
@@ -514,12 +516,14 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Линда',
-			song : 'Ворона'
+			song : 'Ворона',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Линда',
-			song : 'Мало огня'
+			song : 'Мало огня',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_4,
@@ -874,7 +878,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_3,
 			group : 'Света',
-			song : 'Не сходи с ума'
+			song : 'Не сходи с ума',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -933,7 +938,8 @@ let ru_1990_f = [
 		{
 			pack : RU_1990_F_PACK_2,
 			group : 'Линда',
-			song : 'Белое на белом'
+			song : 'Белое на белом',
+			ignore : true
 		},
 		{
 			pack : RU_1990_F_PACK_2,
@@ -1180,6 +1186,11 @@ let ru_1990_f = [
 			pack : RU_1990_F_PACK_2,
 			group : 'Ирина Аллегрова',
 			song : 'Суженый мой (1994)'
+		},
+		{
+			pack : RU_1990_F_PACK_3,
+			group : 'Лиза Мялик',
+			song : 'Четыре косаря (1995)'
 		}
 ];
 
