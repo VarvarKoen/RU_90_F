@@ -343,9 +343,7 @@ function load(){
 
 // RU songs
 const ru_1990_f_icon = [
-	'easy',
-	'medium',
-	'hard',
+	'ru_pop',
 	'pop',
 	'pop_2'
 ];
@@ -364,54 +362,54 @@ let ru_1990_f = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Диана',
 			song : 'Скатертью дорога (1998)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Каролина',
 			song : 'Звёздный вечер',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Каролина',
 			song : 'Мама, всё ОК',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Валерия',
 			song : 'Моя Москва'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Светлана Рерих',
 			song : 'Ладошки'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Марина Хлебникова',
 			song : 'Чашка Кофею (1997)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Светлана Владимирская',
 			song : 'Мальчик мой'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Жанна Агузарова',
 			song : 'Ты, только ты'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Валерия',
 			song : 'Самолёт'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Долина',
 			song : 'Льдинка (1988)',
 			ignore : true
@@ -422,48 +420,48 @@ let ru_1990_f = [
 			song : 'Улыбочка (1999)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лада Дэнс',
 			song : 'Сотри кассету'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лада Дэнс',
 			song : 'Аромат любви'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Света',
 			song : 'Увидимся',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Алёна Апина',
 			song : 'Электричка'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Полина Ростова',
 			song : 'По краю дождя'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лика Стар',
 			song : 'Одинокая луна (1996)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Полина Ростова',
 			song : 'Падала звезда'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Светлана Владимирская',
 			song : 'Дави на газ'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Света',
 			song : 'Дорога в аэропорт',
 			ignore : true
@@ -474,12 +472,12 @@ let ru_1990_f = [
 			song : 'Каменный лев'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Светлана Рерих',
 			song : 'Вредная девчонка'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Светлана Рерих',
 			song : 'Дай мне музыку'
 		},
@@ -489,22 +487,22 @@ let ru_1990_f = [
 			song : 'Я плачу'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Марина Журавлева',
 			song : 'Белая черемуха (1992)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ника',
 			song : 'Три хризантемы (1991)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ника',
 			song : 'Сколько Лет, сколько зим (1995)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ника',
 			song : 'Это не мой секрет (1997)'
 		},
@@ -514,13 +512,13 @@ let ru_1990_f = [
 			song : 'Человек дождя'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Линда',
 			song : 'Ворона',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Линда',
 			song : 'Мало огня',
 			ignore : true
@@ -543,17 +541,17 @@ let ru_1990_f = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Диана Гурцкая',
 			song : 'Ты здесь'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Диана Гурцкая',
 			song : 'Волшебное стекло моей души'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Диана Гурцкая',
 			song : 'Две луны'
 		},
@@ -573,13 +571,13 @@ let ru_1990_f = [
 			song : 'Одинокий голубь (1998)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Яна',
 			song : 'Сигаретный дым',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Яна',
 			song : 'Хулиган',
 			ignore : true
@@ -600,30 +598,30 @@ let ru_1990_f = [
 			song : 'Не перебивай (ft Александр Буйнов)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Саша',
 			song : 'По ночному городу (1999)',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Саша',
 			song : 'Это просто дождь',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Саша',
 			song : 'Любовь — это война',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Алёна Свиридова',
 			song : 'Это ведь я'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Алёна Свиридова',
 			song : 'Два ангела'
 		},
@@ -706,13 +704,13 @@ let ru_1990_f = [
 			song : 'Капитан'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ирина Аллегрова',
 			song : 'Угонщица',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ирина Аллегрова',
 			song : 'Гарем'
 		},
@@ -763,60 +761,60 @@ let ru_1990_f = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Маша Распутина',
 			song : 'Ты упал с луны',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Маша Распутина',
 			song : 'Ты меня не буди',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Алла Пугачёва',
 			song : 'В Петербурге сегодня дожди (1998)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Алла Пугачёва',
 			song : 'Две звезды (ft Владимир Кузьмин) (1986)',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Алла Пугачёва',
 			song : 'Настоящий Полковник (1995)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Кристина Орбакайте',
 			song : 'Позови меня'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Кристина Орбакайте',
 			song : 'Ну почему?'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Кристина Орбакайте',
 			song : 'Без тебя'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Алёна Апина',
 			song : 'Узелки'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Алёна Апина',
 			song : 'Летучий голландец'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Алёна Свиридова',
 			song : 'Никто-никогда'
 		},
@@ -832,89 +830,89 @@ let ru_1990_f = [
 			song : 'Я у твоих ног'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Черникова',
 			song : 'Ты не приходи (розовые очки) (1999)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Черникова',
 			song : 'Да ты не смейся (1996)',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Черникова',
 			song : 'Одинокий волк (1995)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Долина',
 			song : 'Стена (1999)',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Долина',
 			song : 'Прости меня (1993)',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ани Лорак',
 			song : 'Зеркала (2000)',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лада Дэнс',
 			song : 'Baby tonight'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Диана',
 			song : 'Не говори (1996)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Света',
 			song : 'Не сходи с ума',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ирина Аллегрова',
 			song : 'Странник'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'София Ротару',
 			song : 'Ночь любви'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'София Ротару',
 			song : 'Нет мне места в твоём сердце'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'София Ротару',
 			song : 'Было время'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Каролина',
 			song : 'Дискобар',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ани Лорак',
 			song : 'Манекенщица (2000)',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ани Лорак',
 			song : 'Считалочка (1998)'
 		},
@@ -924,7 +922,7 @@ let ru_1990_f = [
 			song : 'Школьный роман'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Любовь Успенская',
 			song : 'Любимый',
 			ignore : true
@@ -936,43 +934,43 @@ let ru_1990_f = [
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Линда',
 			song : 'Белое на белом',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лика Стар',
 			song : 'Би-би, такси (1993)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лика Стар',
 			song : 'Пусть пройдет дождь (1992)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Марина Хлебникова',
 			song : 'Дожди (1997)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Марина Хлебникова',
 			song : 'Полоска Взлетная (1999)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Азиза',
 			song : 'Твоя улыбка (1990)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Азиза',
 			song : 'Всё или ничего (1997)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Азиза',
 			song : 'Невезуха (1996)'
 		},
@@ -1012,37 +1010,37 @@ let ru_1990_f = [
 			song : 'А ты не лётчик (1993)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Диана',
 			song : 'Гори, гори ясно (1997)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Долина',
 			song : 'Прогноз погоды (1997)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Долина',
 			song : 'Половинка (1993)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Долина',
 			song : 'Певица и музыкант (1999)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Марина Журавлева',
 			song : 'Счастливый случай (1992)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Марина Журавлева',
 			song : 'Забудь меня, забудь (1992)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Елена Камбурова',
 			song : 'Спи, моя радость, усни (1991)'
 		},
@@ -1087,12 +1085,12 @@ let ru_1990_f = [
 			song : 'Накуролесила (1997)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ирина Отиева',
 			song : 'Заклятье (1996)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ирина Отиева',
 			song : 'Кто Виноват (1996)'
 		},
@@ -1107,63 +1105,63 @@ let ru_1990_f = [
 			song : 'Сделай Мне Sex (1995)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : "Наталья Сенчукова",
 			song : 'Небо №7 (1996)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : "Наталья Сенчукова",
 			song : 'Доктор Петров (1994)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : "Наталья Сенчукова",
 			song : 'Ты не Дон Жуан (1994)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : "Ольга Зарубина",
 			song : 'Чайничек из Гжели (1992)',
 			ignore : true
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : "Ирина Понаровская",
 			song : 'Ты мой бог (1993)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : "Роксана Бабаян",
 			song : 'Нельзя любить чужого мужа (1991)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : "Роксана Бабаян",
 			song : 'Чары колдовские (1995)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : "Светлана Лазарева",
 			song : 'Лавочка (1995)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : "Светлана Лазарева",
 			song : 'Мама (1995)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : "Светлана Лазарева",
 			song : 'Тельняшка (1994)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лариса Черникова',
 			song : 'Я Шура – ребенок нежный (1999)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лиза Мялик',
 			song : 'Маленькая мама (1993)'
 		},
@@ -1183,12 +1181,12 @@ let ru_1990_f = [
 			song : 'Человек-свисток (1991)'
 		},
 		{
-			pack : RU_1990_F_PACK_2,
+			pack : RU_1990_F_PACK_1,
 			group : 'Ирина Аллегрова',
 			song : 'Суженый мой (1994)'
 		},
 		{
-			pack : RU_1990_F_PACK_3,
+			pack : RU_1990_F_PACK_1,
 			group : 'Лиза Мялик',
 			song : 'Четыре косаря (1995)'
 		}
@@ -1210,15 +1208,7 @@ let music = [
 		packs: [
 				{
 					arr: ru_1990_f_1,
-					name: 'RU 1990s Female: Easy',
-				},
-				{
-					arr: ru_1990_f_2,
-					name: 'RU 1990s Female: Medium',
-				},
-				{
-					arr: ru_1990_f_3,
-					name: 'RU 1990s Female: Hard',
+					name: 'RU 1990s Female: Pop',
 				},
 				{
 					arr: ru_1990_f_4,
